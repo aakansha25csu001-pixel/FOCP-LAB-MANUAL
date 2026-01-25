@@ -1,0 +1,166 @@
+/*#include<iostream>
+using namespace std;
+int main () { 
+     cout<<"hello world\n";
+     return 0;   
+}*/
+
+/*#include<iostream>
+using namespace std;
+int main (){
+     int rollno;
+      cout<<"enter roll no:";
+     cin>>rollno;
+      cout<<"your roll no is"<<rollno;
+     return 0;
+*/
+/*#include<iostream>
+using namespace std;
+int main(){
+     int marks1,marks2,marks3;
+     cout<<"enter you marks:";
+     cin >> marks1 >> marks2 >> marks3;
+     cout<<"marks1="<<marks1<<endl<<"marks2="<<marks2<<endl<<"marks3="<<marks3<<endl;
+     return 0;
+
+}*/
+/*#include<iostream>
+using namespace std;
+int main(){
+     int marks1,marks2,marks3;
+     cout<<"enter you marks:";
+     cin>>marks1>>marks2>>marks3;
+     float avg=(marks1+marks2+marks3)/3;
+     cout<<"the avrage is"<<avg;
+     return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+int main(){
+     int r;
+     float area;
+     cout<<"enter the radius:";
+     cin>>r;
+     area=3.14*r*r;
+     cout<<"the area of fountain is"<<area;
+     return 0;
+
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int choice;
+     float celsius,fahrenheit;
+     cout<<"temperature conversion\n";
+     cout<< "1. celsius to fahrenheit\n";
+     cout<<"2. fahrenheit to celsius\n";
+     cout<<"enter your choice:\n";
+     cin>>choice;
+     
+     if (choice==1){
+          cout<<"enter temperature for celsius conversion\n";
+          cin>>celsius;
+          fahrenheit=(celsius*9/5)+32;
+          cout<<"temperature in fahrenheit"<<fahrenheit;
+
+     }
+      else if(choice==2){
+          cout<<"enter temperature for fahrenheit converison";
+          cin>>fahrenheit;
+          celsius=(fahrenheit-32)*5/9;
+          cout<<"temperature in celsius"<<celsius;
+     }
+     else
+     {cout<<"invalid output\n";}
+     return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int itemno,quantity;
+     float totalamount,unitprice,finalamount,discount;
+     cout<<"enter item no:\n";
+     cin>>itemno;
+     cout<<"enter the quantity:\n";
+     cin>>quantity;
+     cout<<"enter the unit price:\n";
+     cin>>unitprice;
+     totalamount=quantity*unitprice;
+     discount=totalamount*0.20;
+     finalamount=totalamount-discount;
+
+     cout<<"\nitemno:"<<itemno<<endl;
+     cout<<"\nquantity:"<<quantity<<endl;
+     cout<<"\ntotalamount:"<<totalamount<<endl;
+     cout<<"\ndiscount:"<<discount<<endl;
+     cout<<"\nfinalamount:"<<finalamount<<endl;
+     return 0;     
+
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int x,y,z;
+     cout<<"\nenter x:";
+     cout<<"\nenter y:";
+     cin>>x>>y;
+     z=x;
+     x=y;
+     y=z;
+     cout<<"after swapping:\n";
+     cout<<"x= "<<x<<endl;
+     cout<<"y= "<<y<<endl;
+     return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int x,y;
+     cout<<"\nenter x:";
+     cout<<"\nenter y:";
+     cin>>x>>y;
+     x=x+y;
+     y=x-y;
+     x=x-y;
+     cout<<"after swapping:\n";
+     cout<<"x= "<<x<<endl;
+     cout<<"y= "<<y<<endl;
+     return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int score1,score2,score3;
+     cout<<"enter the 3 score:";
+     cin>>score1>>score2>>score3;
+     if(score1>score2 && score1>score3){
+          cout<<"player1 is ahead\n";}
+          else if(score2>score1 && score2>score3){
+          cout<<"player2 is ahead\n";}
+          else if(score3>score1 && score3>score2){          
+               cout<<"player3 is ahead\n";
+return 0;
+     }
+
+}*/
+/*#include<iostream>
+using namespace std;
+int main (){
+     int a;
+     cout<<"enter a:";
+     cin>>a;
+     if(a%5==0 && a%3==0){
+          cout<<"it is both tags";
+     }
+      else if(a%5==0){
+          cout<<"it is fuzzz"<<endl;}
+          else if(a%3==0){
+               cout<<"it is buzzz"<<endl;
+          }
+          
+          return 0;
+     }*/
+
+
+
+
