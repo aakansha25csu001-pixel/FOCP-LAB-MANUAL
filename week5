@@ -1,0 +1,343 @@
+/*#include<iostream>
+using namespace std; fucntion declare
+void welcome (void);
+void welcome(string);
+int main (){
+string usernamee;
+cout<<"enter ";
+//cin>>username; gives only first name
+getline(cin,username);
+    welcome();//fucntion call
+    welcome("section A");
+    return 0;
+}
+void welcome() //fucntion deifntion
+{
+    cout<<"\n welcome user";
+}
+void welcome(string name)
+{
+    cout<<"\n welcome"<<name;
+}*/
+/*#include<iostream>
+using namespace std;
+int sum (int,int);
+float sum (float,float);
+double sum(double,double);
+int main (){
+    int a,b;
+    float c,d;
+    double d1,d2;
+    cout<<"enter a,b:";
+    cin>>a>>b;
+    cout<<"enter c,d:";
+    cin>>c>>d;
+    cout<<"enter d1,d2:";
+    cin>>d1>>d2;
+    cout<<"\n int sum:"<<sum(a,b);
+    cout<<"\n float sum:"<<sum(c,d);
+    cout<<"\n double sum:"<<sum(d1,d2); 
+
+int sum(int n1,int n2)
+{
+     return (n1+n2);
+    }
+float sum(float n1,float n2)
+{
+   return (n1+n2);
+}
+double sum(double n1,double n2){
+    return(n1+n2);
+}*/
+/*#include<iostream>
+using namespace std;
+int sum(int,int,int=0,int=0,int=0);
+int main () {
+    
+cout<<"the value of 2 sum:"<<sum(13,23);
+cout<<"\nthe value of 3 sum:"<<sum(13,23,34);
+cout<<"\nthe value of 4 sum:"<<sum(13,23,34,45);
+cout<<"\nthe value of 5 sum:"<<sum(13,23,34,45,56);
+    return 0;
+}
+int sum(int a,int b,int c,int d,int e)
+{
+int result;
+ int r=a+b+c+d+e;
+return r;
+}*/
+/*#include<iostream>
+using namespace std;
+void welcome(string="user");
+int main (){
+    welcome();
+    welcome("section A");
+    return 0;
+}
+void welcome (string name)
+{
+    cout<<"\n welcome"<<name;
+}*/
+
+//lab manual ques
+/*#include<iostream>
+using namespace std;
+int number(int);
+int n,result;
+int main (){
+    cout<<"enter a number:";
+    cin>>n;
+    result=number(n);
+    if(result==1){
+        cout<<"PRIME";
+    }
+    else
+    cout<<"NOT PRIME";
+    return 0;
+}
+
+int number(int n)
+{
+    int count=0;
+   for(int i=1;i<=n;i++){
+    if (n%i==0){
+        count++;
+    }
+}
+    if (count==2)
+    
+        return 1;
+    
+    else
+    return 0;  
+}*/
+/*#include<iostream>
+using namespace std;
+    int add(int a,int b);
+int main()
+{
+    int a,b;
+    cout<<"enter the number:";
+    cin>>a>>b;
+    cout<<add(a,b);
+}
+
+    int add(int a,int b)
+{
+    return a+b;
+}*/
+/*#include<iostream>
+using namespace std;
+int square(int a);
+int main (){
+    int a;
+    cout<<"enter a number:";
+    cin>>a;
+    cout<<square(a);
+}
+int square(int a){
+    return a*a;
+}*/
+/*#include<iostream>
+using namespace std;
+void greet()
+{
+    cout<<"good morning";
+}
+int main (){
+    greet();
+    return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+int bigger(int a,int b);
+int main (){
+    int a,b;
+    cout<<"enter the number:";
+    cin>>a>>b;
+    cout<<"bigger number is"<<bigger(a,b);
+}
+int bigger(int a,int b){
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}*/
+//lab manual ques
+/*#include<iostream>
+using namespace std;
+int swap(int a,int b);
+int main (){
+    int a,b;
+    cout<<"enter two number:";
+    cin>>a>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"swapped numbers are:"<<a<<"  "<<b<<endl;
+
+}
+int swap(int a,int b){
+    return swap(a,b);
+}*/
+
+//labmanual question
+
+/*#include<iostream>
+using namespace std;
+void computeperformance( int arr[],int n);
+int main (){
+    int arr[]={12,23,45,34,56,98,76};
+    computeperformance(arr,7);
+    return 0;
+
+}
+
+void computeperformance( int arr[],int n){
+    int max=arr[0],min=arr[0],avg=arr[0];
+    for(int i=1;i<n;i++){
+        if(min>arr[i]){
+            min=arr[i];
+        }
+        if(max<arr[i]){
+            max=arr[i];
+        }
+        avg+=arr[i];
+
+    }
+    cout<<"average is:"<<avg/n<<endl;
+    cout<<"minimum is:"<<min<<endl;
+    cout<<"maximum is:"<<max<<endl;
+}*/
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+double calculateEMI(double P,double R=0.01,int T=12);
+int main (){
+    double P;
+   
+    cout<<"enter principal amount:"<<endl;
+    cin>>P; 
+    double EMI=calculateEMI(P);
+
+    cout<<"the emi of loan is:"<<EMI<<endl;
+    return 0;
+}
+double calculateEMI(double P,double R,int T){
+    double EMI=(P*R*pow(1+R,T))/(pow(1+R,T));
+    return EMI;
+}*/
+/*#include<iostream>
+using namespace std;
+int digitsum(int num);
+int main (){
+    int number;
+    cout<<"enter a number:";
+    cin>>number;
+    cout<<"sum of digits is:"<<digitsum(number);
+    return 0;
+}
+int digitsum(int num){
+    int sum=0;
+    while(num!=0){
+        sum+=num%10;
+        num/=10;
+    }
+    return sum;
+}*/
+/*#include<iostream>
+using namespace std;
+int sum(int a,int b);
+int substract(int a,int b);
+int multiply(int a,int b);
+double divide(int a,int b);
+int main (){
+    int choice;
+    int a,b;
+    cout<<"1.ADDITION\n";
+    cout<<"2.MULTIPLY\n";
+    cout<<"3.DIVIDE\n";
+    cout<<"4.SUBTRACT\n";
+    cout<<"enter your choicee:";
+    cin>>choice;
+    cout<<"enter two numbers:";
+    cin>>a>>b; 
+
+if (choice==1){
+cout<<"the result is:"<<sum(a,b);
+}
+ else if (choice==2){
+        cout<<"the result is:"<<multiply(a,b);
+    }
+
+ else if (choice==3){
+        cout<<"the result is:"<<divide(a,b);
+    }
+   else if (choice==4){
+        cout<<"the result is:"<<substract(a,b);
+    }
+    else cout<<"invalid!";
+    return 0;
+} 
+int sum(int a,int b){
+    return (a+b);
+}
+int substract(int a,int b){
+    return(a-b);
+}
+int multiply(int a,int b){
+    return(a*b);
+}
+double divide(int a,int b){
+    return double(a/b);
+}*/
+//lab manual ques
+/*#include<iostream>
+using namespace std;
+float areacircle(int a);
+int arearectangle(int l,int b);
+int areatriangle(int b,int h);
+int main(){ 
+    cout<<"1.AREA OF CIRCLE\n";
+    cout<<"1.AREA OF RECTANGLE\n";
+    cout<<"1.AREA OF TRIANGLE\n";
+    int l,b,h,a;
+    int choice;
+
+    cout<<"enter choice:";
+    cin>>choice;
+    
+    if (choice==1){
+        cout<<"enter radius:";
+        cin>>a;
+        cout<<"the area of circle:"<<areacircle(a);
+    }
+    else if (choice==2){ 
+        cout<<"enter length n breadth:";
+        cin>>l>>b;
+        cout<<"the area of rectangle:"<<arearectangle(l,b);
+       
+    }
+    else if (choice==3){
+        cout<<"enter basee n height:";
+        cin>>b>>h;
+        cout<<"the area of triangle"<<areatriangle(b,h);
+    }
+    else 
+    cout<<"INVALID";
+    return 0;
+ } 
+float areacircle(int a){
+   float areacircle=3.14*a*a;
+     return areacircle;
+    }
+int arearectangle(int l,int b){
+ int arearectangle=l*b;
+ return arearectangle;
+}
+int areatriangle(int b,int h){
+    int areatriangle=0.5*b*h;
+    return (areatriangle);
+}*/
