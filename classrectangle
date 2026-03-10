@@ -1,0 +1,66 @@
+/*#include<iostream>
+using namespace std;
+class Rectangle{
+float length;
+float width;
+public :
+void inputDimension();
+float calculateArea();
+float calculatePerimeter ();
+void displayresult();
+
+};
+void Rectangle::inputDimension(){
+    cout<<"enter length n width";
+    cin>>length>>width;
+}
+float Rectangle::calculateArea(){
+    return (length*width);
+}
+float Rectangle::calculatePerimeter(){
+    return(2*(length+width));
+}
+void Rectangle::displayresult(){
+    cout<<"area of rectangle:"<<calculateArea()<<endl;
+    cout<<"perimeter of rectangle:"<<calculatePerimeter()<<endl;
+}
+
+int main (){
+    Rectangle r1;
+    r1.inputDimension();
+    r1.displayresult();
+        return 0;
+}*/
+#include<iostream>
+using namespace std;
+class Rectangle{
+float length;
+float width;
+public :
+void inputDimension();
+float calculateArea();
+float calculatePerimeter ();
+void displayresult();
+
+};
+void Rectangle::inputDimension(){
+    cout<<"enter length n width";
+    cin>>length>>width;
+}
+float Rectangle::calculateArea(){
+    return (length*width);
+}
+float Rectangle::calculatePerimeter(){
+    return(2*(length+width));
+}
+void Rectangle::displayresult(){
+    cout<<"area of rectangle:"<<calculateArea()<<endl;
+    cout<<"perimeter of rectangle:"<<calculatePerimeter()<<endl;
+}
+
+int main (){
+    Rectangle r1;
+    r1.inputDimension();
+    r1.displayresult();
+        return 0;
+}
