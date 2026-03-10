@@ -1,0 +1,74 @@
+/*#include<iostream>
+using namespace std;
+class Student
+{
+    int roll_no;
+    string name;
+    int marks1;
+    int marks2;
+    int marks3;
+    public:
+    void inputdetails()
+    {//setter
+        cout<<"\n Enter roll no,name,marks1,marks2,marks3";
+        cin>>roll_no>>name>>marks1>>marks2>>marks3;
+    }
+   int calculateTotal()//getter
+   {
+    return (marks1+marks2+marks3);
+   }
+   void displayDetails(){
+    cout<<"\nName:\n"<<name<<"\n Roll no:"<<roll_no;
+    cout<<"\n marks1:"<<marks1<<"\n marks2:"<<marks2<<"\nmarks 3:"<<marks3;
+    cout<<"\n total:"<<calculateTotal();
+   }
+};
+int main (){
+    Student s1;
+    s1.inputdetails();
+    s1.displayDetails();
+    Student s2;
+    s2.inputdetails();
+    s2.displayDetails();
+    return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+class Student
+{
+    int roll_no;
+    string name;
+    int marks1;
+    int marks2;
+    int marks3;
+    public:
+    void inputdetails();
+    int calculateTotal();
+    void displayDetails();
+    
+};
+void Student::inputdetails()//
+{
+        cout<<"\n Enter roll no,name,marks1,marks2,marks3";
+        cin>>roll_no>>name>>marks1>>marks2>>marks3;
+    }
+    int Student::calculateTotal()//getter
+   {
+    return (marks1+marks2+marks3);
+   }
+   void Student::displayDetails()
+   {
+    cout<<"\nName:\n"<<name<<"\n Roll no:"<<roll_no;
+    cout<<"\n marks1:"<<marks1<<"\n marks2:"<<marks2<<"\nmarks 3:"<<marks3;
+    cout<<"\n total:"<<calculateTotal();
+   }
+int main (){
+    Student s1;
+    s1.inputdetails();
+    s1.displayDetails();
+    Student s2;
+    s2.inputdetails();
+    s2.displayDetails();
+    return 0;
+}*/
+
