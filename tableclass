@@ -1,0 +1,40 @@
+/*#include<iostream>
+using namespace std; 
+class Table{
+    string material;
+    int price;
+    int legs;
+    public:
+    Table();
+    Table(string,int);
+    Table(string,int,int);
+    void display_details();
+};
+Table::Table(){
+    material="WOOD";
+    price=5000;
+    legs=4;
+}
+Table::Table(string m,int pr){
+    material=m;
+    price=pr;
+    legs=4;
+}
+Table::Table(string m,int pr,int l){
+    material=m;
+    price=pr;
+    legs=l;
+}
+void Table::display_details(){
+    cout<<"\n the material fo the table:"<<material;
+    cout<<"\n the price of the table:"<<price;
+    cout<<"\n no of legs are:"<<legs;
+}
+int main (){
+    Table t1;
+    Table t2("plastic",1000);
+    Table t3("metal",1500,3);
+    t1.display_details();
+    t2.display_details();
+    t3.display_details();
+}*/
