@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int arr[]={12,36,48,60,72,84};
+    int j=0,rev[6];
+    for(int i=5;i>=0;i--){
+    rev[j]=arr[i];
+    j++;
+    }  
+     for(int i=0;i<6;i++){
+        cout<<"reverse:"<<rev[i];
+     }
+        return 0;   
+}*/
