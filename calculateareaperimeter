@@ -1,0 +1,30 @@
+/*#include<iostream>
+using namespace std;
+class Rectangle{
+    int length,breadth;
+    public:
+    void inputdimensions();
+    float calculateArea();
+    float calculatPerimeter();
+    void displaydetails();
+
+};
+void  Rectangle::inputdimensions(){
+    cout<<"enter length and breadth";
+    cin>>length>>breadth;
+}
+float Rectangle::calculateArea(){
+    return(length*breadth);
+}
+float Rectangle::calculatPerimeter(){
+    return (2*(length+breadth));
+}
+void Rectangle::displaydetails(){
+    cout<<"\n the area of rectangle:"<<calculateArea();
+    cout<<"\n th perimeter is:"<<calculatPerimeter();
+}
+int main (){
+    Rectangle r1;
+    r1.inputdimensions();
+    r1.displaydetails();
+}*/
