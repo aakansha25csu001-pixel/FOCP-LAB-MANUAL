@@ -273,44 +273,5 @@ int main(){
     m3.display();
 }*/
 
-/*#include<iostream>
-using namespace std;
-class Laptop{
-    string brand;
-    int RAM;
-    int price;
-    public:
-    Laptop(string);
-    Laptop(string,int);
-    Laptop(string,int,int);
-    void setdetails();
-};
-Laptop::Laptop(string br){
-    brand=br;
-    RAM=0;
-    price=0;
-}
-Laptop::Laptop(string br,int R){
-    brand=br;
-    RAM=R;
-    price=0;
-}
-Laptop::Laptop(string br,int R,int p){
-    brand=br;
-    RAM=R;
-    price=p;
-}
-void Laptop::setdetails(){
-    cout<<"\nthe brand name is:"<<brand;
-    cout<<"\n the RAM available is:"<<RAM;
-    cout<<"\n the price of the laptop:"<<price;
-}
-int main (){
-    Laptop l1("DELL");
-    Laptop l2("APPLE",128);
-    Laptop l3("LENEVO",512,80000);
-    l1.setdetails();
-    l2.setdetails();
-    l3.setdetails();
-}*/
+
 
