@@ -1,0 +1,19 @@
+//ques 31
+/*#include<iostream>
+using namespace std;
+int main (){
+     int defect[5],div3n5_count=0;
+     cout<<"enter the string";
+     for(int i=0;i<5;i++)
+     {
+        cin>>defect[i];
+     }
+     for(int i=0;i<5;i++)
+     {
+        if(defect[i]%3==0 && defect[i]%5==0){
+       div3n5_count++;
+        }
+     }
+     cout<<"DIVISIBLE BY 3 N 5="<<div3n5_count;
+     return 0;
+}*/
