@@ -1,0 +1,27 @@
+/*#include<iostream>
+using namespace std;
+class Book{
+    string title;
+    int price;
+    public:
+    Book(string,int);
+    void display_details();
+
+};
+Book::Book(string t,int pr){
+    title=t;
+    price=pr;
+}
+void Book::display_details(){
+    cout<<"\nthe title of the book:"<<title;
+    cout<<"\n the price of the book:"<<price;
+}
+int main (){
+    Book b1("ANNY FRANK",700);
+    Book b2("RICH DAD",500);
+    Book b3("IKIGAI",450);
+    b1.display_details();
+    b2.display_details();
+    b3.display_details();
+}*/
+
