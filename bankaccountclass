@@ -1,0 +1,28 @@
+/*#include<iostream>
+using namespace std;
+class BankAccount{
+    int accountNo;
+    float balance;
+    public:
+    BankAccount();
+    BankAccount(int,float);
+    void display_details();
+};
+BankAccount::BankAccount(){
+    accountNo=0;
+    balance=0;
+}
+ BankAccount::BankAccount(int accno,float bln){
+    accountNo=accno;
+    balance=bln;
+  }
+  void BankAccount::display_details(){
+    cout<<"\nthe account no is :"<<accountNo;
+    cout<<"\nthe balnce is:"<<balance;
+  }
+  int main (){
+    BankAccount b1;
+    BankAccount b2(34630576,6700);
+    b1.display_details();
+    b2.display_details();
+  }*/
