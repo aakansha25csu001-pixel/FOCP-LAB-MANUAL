@@ -195,24 +195,5 @@ void computeperformance( int arr[],int n){
     cout<<"minimum is:"<<min<<endl;
     cout<<"maximum is:"<<max<<endl;
 }*/
-/*#include<iostream>
-#include<math.h>
-using namespace std;
-double calculateEMI(double P,double R=0.01,int T=12);
-int main (){
-    double P;
-   
-    cout<<"enter principal amount:"<<endl;
-    cin>>P; 
-    double EMI=calculateEMI(P);
 
-    cout<<"the emi of loan is:"<<EMI<<endl;
-    return 0;
-}
-double calculateEMI(double P,double R,int T){
-    double EMI=(P*R*pow(1+R,T))/(pow(1+R,T));
-    return EMI;
-}*/
-
-}*/
 
