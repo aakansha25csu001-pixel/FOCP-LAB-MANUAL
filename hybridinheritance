@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+class A{
+    public:
+    int a;
+    A(){
+        cout<<"\nA constructor called";
+        a=500;
+    }
+    ~A(){
+        cout<<"\n A Destructor called";
+    }
+void  display_A(){
+    cout<<"value of a"<<a;
+}
+};
+
+class B:virtual public A{
+    int b;
+    public:
+    B(){ cout<<"\nB constructor called";
+    b=400;
+}
+~B(){cout<<"\n B Destructor called";}
+    void display_b(){
+        cout<<"value of b"<<b;
+    }
+};
+class C:virtual public A{
+    int c;
+    public:
+    C(){ cout<<"\nC constructor  called";
+    c=600;
+}
+~C(){cout<<"\nC Destructor called";}
+    void display_c(){
+        cout<<"value of c"<<c;
+    }
+};
+class D: public B,public C{
+    int d;
+    public:
+     D(){ cout<<"\nD constructor called";
+    d=700;
+}
+~D(){cout<<"\n D Destructor called";}
+    void display_D(){
+        cout<<"\nvalue of d:"<<d;
+    }
+};
+
+int main(){
+    D A1;
+    A1.display_D();
+    return 0;
+}
