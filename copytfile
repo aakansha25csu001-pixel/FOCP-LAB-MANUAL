@@ -1,0 +1,15 @@
+
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main (){
+    ofstream fin("aakansha.txt");
+    fout<<10<<" "<<30<<" "<<30;
+    fout.close();
+    ifstream fin ("nums.txt");
+    char a,b,c;
+    fin>>a>>b>>c;
+        cout<<a+b+c;//it will print ascii value of the first num
+    cout<<a+b+c;
+    fin.close();
+}
