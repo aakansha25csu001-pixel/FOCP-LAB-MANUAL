@@ -1,0 +1,16 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main (){
+    int count=0;
+    ifstream fin ("aakansha.txt");
+    string line;
+   // while(fin>>line){
+    while(getline(fin,line)){
+  
+    cout<<line<<endl;
+    count++; 
+    }
+      cout<<"count of line:"<<count;
+    fin.close();
+}
